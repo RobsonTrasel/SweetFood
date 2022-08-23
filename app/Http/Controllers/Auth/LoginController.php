@@ -9,6 +9,7 @@ class LoginController extends Controller
 {
     public function index()
     {
-
+        $title = "Entrar";
+        return view('pages.auth.login', compact('title'));
     }
 }

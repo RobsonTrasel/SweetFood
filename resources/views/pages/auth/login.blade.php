@@ -1,7 +1,7 @@
-@extends('main.layouts.app')
+@extends('main.body.app')
 
 @section('title', $title)
 
 @section('content')
-    <h1>Home</h1>
+    <h1>Entrar</h1>
 @endsection

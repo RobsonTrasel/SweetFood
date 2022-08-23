@@ -9,6 +9,7 @@ class RegisterController extends Controller
 {
     public function index()
     {
-
+        $title = "Cadastrar";
+        return view('pages.auth.register', compact('title'));
     }
 }

@@ -1,0 +1,7 @@
+@extends('main.body.app')
+
+@section('title', $title)
+
+@section('content')
+    <h1>Restaurantes</h1>
+@endsection
